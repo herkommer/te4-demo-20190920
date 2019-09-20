@@ -12,4 +12,10 @@ namespace CarRental
         {
         }
     }
+
+    class Car
+    {
+        public string RegistrationNumber { get; set; }
+
+    }
 }
