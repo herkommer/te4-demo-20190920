@@ -23,13 +23,15 @@ namespace MoreCars
             Cars.Add(d);
 
             Cars.Add(new Car() { Make = "BMW", Model = "i8", Color = "Red" });
+            Cars.Add(new Car() { Make = "BMW", Model = "520", Color = "Black" });
+            Cars.Add(new Car() { Make = "Volvo", Model = "XC90", Color = "White" });
 
 
             Console.WriteLine("Vi har {0} st bilar i lager just nu", Cars.Count);
 
             foreach (Car anka in Cars)
             {
-                Console.WriteLine("{0} {1}", anka.Make,anka.Model);
+                Console.WriteLine("{0} {1} ({2})", anka.Make,anka.Model, anka.Color);
             }
         }
     }
